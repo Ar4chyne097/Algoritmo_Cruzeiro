@@ -12,12 +12,11 @@ int subtracao(int a, int b){
 }
 
 float perimetro(float altura, float largura){
-	printf("Perímetro do jardim: %f em metros quadrados \n", (altura+largura));
+	printf("Perï¿½metro do jardim: %f em metros quadrados \n", (altura+largura));
 	return 0;
 }
 
 float area(float altura, float largura){
-	printf("Área do jardim: %f em metros \n", (altura*largura));
+	printf("ï¿½rea do jardim: %f em metros \n", (altura*largura));
 	return 0;
 }
-

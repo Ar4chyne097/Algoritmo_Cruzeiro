@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "funcoes.h"
 
 int main(int argc, char** argv) {
@@ -10,7 +9,7 @@ int main(int argc, char** argv) {
 	printf("Idade: %d anos\n", idade);
 	printf("Altura: %.2f metros\n", altura);
 	printf("Inicial do nome: %c\n", inicial);
-	printf("ID do usuário: %u\n", id_usuario);*/
+	printf("ID do usuï¿½rio: %u\n", id_usuario);*/
 	
 	/*int a = 10;
 	int b = 20;*/
