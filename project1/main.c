@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "funcoes.h"
 
 int main(int argc, char** argv) {
@@ -26,15 +27,20 @@ int main(int argc, char** argv) {
 	subtracao(a, b);*/
 	
 	float altura, largura;
+	/*float altura = 10;
+	float largura = 10;*/
+	char *mensagem = "Área do jardim:";
 	
 	printf("Altura do jardim:");
-	scanf("%.2f\n", &altura);
+	scanf("%f", &altura);
 	
 	printf("Largura do jardim:");
-	scanf("%.2f\n", &largura);
+	scanf("%f", &largura);
 	
-	perimetro(altura, largura);
-	area(altura, largura);
+	produto(altura, largura, mensagem);
+	
+	mensagem = "Perímetro do jardim:";
+	soma((int) altura, (int) largura, mensagem);
 	
 	return 0;
 }

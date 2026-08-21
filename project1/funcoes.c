@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include "funcoes.h"
 
-int soma(int a, int b){
-	printf("Resultado: %d\n", a+b);
+int soma(int a, int b, char *mensagem){
+	printf("%s %d\n", mensagem, a+b);
 	return 0;
 }
 
-int subtracao(int a, int b){
-	printf("Resultado: %d\n", a-b);
+int subtracao(int a, int b, char *mensagem){
+	printf("%s %d\n", mensagem, a-b);
 	return 0;
 }
 
-float perimetro(float altura, float largura){
-	printf("Per�metro do jardim: %f em metros quadrados \n", (altura+largura));
+float produto(float a, float b, char *mensagem){
+	printf("%s %.2f \n", mensagem, a*b);
 	return 0;
 }
 
-float area(float altura, float largura){
-	printf("�rea do jardim: %f em metros \n", (altura*largura));
+float razao(float a, float b, char *mensagem){
+	printf("%s %.2f \n", mensagem, a/b);
 	return 0;
 }
