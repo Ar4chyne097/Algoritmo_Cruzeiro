@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 	return 0;*/
 	
 	//Exercício 2
-	int nome;
+	/*int nome;
 	float valor;
 	
 	printf("Digite o número da moeda:");
@@ -31,5 +31,5 @@ int main(int argc, char** argv) {
 	printf("Digite o valor:");
 	scanf("%f", &valor);
 	
-	moeda(nome, valor);
+	moeda(nome, valor);*/
 }
