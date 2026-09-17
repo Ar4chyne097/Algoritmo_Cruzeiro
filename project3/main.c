@@ -32,4 +32,59 @@ int main(int argc, char** argv) {
 	scanf("%f", &valor);
 	
 	moeda(nome, valor);*/
+	
+	//Exercício 3
+	/*char sexo;
+	float altura;
+	
+	printf("M = Masculino \n");
+	printf("F = Feminino \n");
+	
+	printf("Digite seu sexo:");
+	scanf("%s", &sexo);
+	
+	printf("Digite sua altura:");
+	scanf("%f", &altura);
+	
+	peso(sexo, altura);*/
+	
+	//Exercício 4
+	/*int mes;
+	
+	printf("Digite o número do mês requerido:");
+	scanf("%d", &mes);
+	
+	calendario(mes);
+	
+	return 0;*/
+	
+	//Exercício 5
+	/*int a,b,c;
+	
+	printf("Digite o valor de A:");
+	scanf("%d", &a);
+	
+	printf("Digite o valor de B:");
+	scanf("%d", &b);
+	
+	printf("Digite o valor de C:");
+	scanf("%d", &c);
+	
+	comparacao(a, b, c);*/
+	
+	//Exercício 6
+	/*int a, b, c;
+	printf("Digite o valor de A:");
+	scanf("%d", &a);
+	
+	printf("Digite o valor de B:");
+	scanf("%d", &b);
+	
+	if(a == b){
+		c = a+b;
+		printf("%d",c);
+	}else{
+		c = a*b;
+		printf("%d",c);
+	}*/
 }
