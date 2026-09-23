@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include "function.h"
 
 static char* comida[4] = {"hamburguer", "chessburguer","cachorro quente", "sanduíchue"};
@@ -109,5 +110,22 @@ void comparacao(int a, int b, int c){
 		printf("A+B > C");
 	}else{
 		printf("A+B = C");
+	}
+}
+
+static float delta, x1, x2;
+
+void raiz(int a, int b, int c){
+	delta = (b*b)-(4*a*c);
+	
+	x1 = ((-b + (delta^(1/2)))/2);
+	x2 = ((-b - (delta^(1/2)))/2);
+	
+	if(delta == 0){
+		printf("Raíz única: %d", x1);
+	}else if(delta < 0){
+		printf("Raiz complexa");
+	}else{
+		printf("1°: %d\n 2º: %d", x1, x2);
 	}
 }

@@ -6,5 +6,6 @@ void moeda(int a, float b);
 void peso(char a, float b);
 void calendario(int a);
 void comparacao(int a, int b, int c);
+void raiz(int a, int b, int c);
 
 #endif

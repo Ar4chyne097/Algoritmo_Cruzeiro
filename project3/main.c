@@ -152,7 +152,55 @@ int main(int argc, char** argv) {
 				maior = a[i];
 			}
 		}
-	};*/
+	};
 	
-	printf("%d %d %d", menor, medio, maior);
+	printf("%d %d %d", menor, medio, maior);*/
+	
+	//Exercício 9
+	/*int a;
+	
+	printf("Digite um valor:");
+	scanf("%d", &a);
+	
+	if(a%7 == 0){
+		printf("É múltiplo");
+	}else{
+		printf("Não é múltiplo");
+	}*/
+	
+	//Exercício 10
+	/*int a[3];
+	
+	printf("Digite o valor do primeiro número:");
+	scanf("%d", &a[0]);
+	
+	printf("Digite o valor do segundo número:");
+	scanf("%d", &a[1]);
+	
+	printf("Digite o valor do terceiro número:");
+	scanf("%d", &a[2]);
+	
+	int i, menor, medio, maior;
+	for(i = 0; i < 3; i++){
+		if(a[i] < menor){
+			menor = a[i];
+	 	}
+	};
+	
+	printf("%d",menor);*/
+	
+	//Exercício 11
+	int a, b, c;
+	
+	printf("Digite o valor da constante da variável ao quadrado:");
+	scanf("%d", &a);
+	
+	printf("Digite o valor da constante da variável elevado a primeira potência:");
+	scanf("%d", &b);
+	
+	printf("Digite o valor independente:");
+	scanf("%d", &c);
+	
+	raiz(a, b, c);
+	
 };
