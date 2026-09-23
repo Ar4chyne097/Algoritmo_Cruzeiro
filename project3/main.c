@@ -87,4 +87,72 @@ int main(int argc, char** argv) {
 		c = a*b;
 		printf("%d",c);
 	}*/
-}
+	
+	//Exercício 7
+	/*int a,b,c,d;
+	
+	printf("Digite o valor do primeiro número:");
+	scanf("%d", &a);
+	
+	printf("Digite o valor do segundo número:");
+	scanf("%d", &b);
+	
+	printf("Digite o valor do terceiro número:");
+	scanf("%d", &c);
+	
+	printf("Digite o valor do quarto número:");
+	scanf("%d", &d);
+	
+	if(a > b){
+		if(a > c){
+			if(a > d){
+				printf("O maior número é: %d", a);
+			}
+		}else{
+			if(c > d){
+				printf("O maior número é: %d", c);
+			}else{
+				printf("O maior número é: %d", d);
+			}
+		}
+	}else{
+		if(b > c){
+			if(b > d){
+				printf("O maior número é: %d", b);
+			}
+		}else{
+			if(c > d){
+				printf("O maior número é: %d", c);
+			}else{
+				printf("O maior número é: %d", d);
+			}
+		}
+	}*/
+	
+	//Exercício 8
+	/*int a[3];
+	
+	printf("Digite o valor do primeiro número:");
+	scanf("%d", &a[0]);
+	
+	printf("Digite o valor do segundo número:");
+	scanf("%d", &a[1]);
+	
+	printf("Digite o valor do terceiro número:");
+	scanf("%d", &a[2]);
+	
+	int i, menor, medio, maior;
+	for(i = 0; i < 3; i++){
+		if(a[i] < menor){
+			menor = a[i];
+	 	}else{
+			if(a[1] > medio){
+				medio = a[1];
+			}else{
+				maior = a[i];
+			}
+		}
+	};*/
+	
+	printf("%d %d %d", menor, medio, maior);
+};
