@@ -1,3 +1,3 @@
-Dia: seg Consumo: 450.500000
-Dia: ter Consumo: 427.799988
-Dia: qua Consumo: 389.250000
+Dia: seg Consumo: 450.50
+Dia: ter Consumo: 427.80
+Dia: qua Consumo: 389.25

@@ -30,17 +30,17 @@ int main(int argc, char** argv) {
 	}
 	
 	int i;
-	char dia[3];
+	char dia[20];
 	float agua;
 	
 	for(i = 0; i < 3; i++){
 		printf("Digite o dia da semana:");
-		scanf("%s", &dia);
+		scanf("%s", dia);
 		
 		printf("Digite o consumo do dia de água:");
-		scanf("%.2f", &agua);
+		scanf("%f", &agua);
 		
-		fprintf(arquivo, "Dia: %s Consumo: %f\n", dia, agua);
+		fprintf(arquivo, "Dia: %s Consumo: %.2f\n", dia, agua);
 	}
 	
 	fclose(arquivo);*/
