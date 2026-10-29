@@ -1,0 +1,3 @@
+Quantidade de estudantes: 3
+Maior valor das vendas: 320.50
+Total das vendas: 560.40

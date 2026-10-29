@@ -1,0 +1,4 @@
+Quantidade de estudantes: 3
+Maior nota: 8.500000
+Média das notas gerais 6.333333
+:
