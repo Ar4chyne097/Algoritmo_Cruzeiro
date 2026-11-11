@@ -2,7 +2,9 @@
 #include "functions.h"
 
 int main(int argc, char** argv) {
-	float saldo;
+	float saldo = 1500, *ponteiro;
 	
-	modificar(saldo);
+	ponteiro = &saldo;
+	
+	modificar(ponteiro);
 }
