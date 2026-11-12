@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include "functions.h"
 
-int modificar(float *dinheiro){
-	printf("Digite o novo saldo:");
-	scanf("%f", dinheiro);
+static float saque;
+
+int modificar(float *dinheiro, float saque){
+	printf("Digite o valor do saque:");
+	scanf("%f", &saque);
 	
-	printf("Saldo modificado com sucesso para o valor de: %.2f!", *dinheiro);
+	if(saque <= *dinheiro){
+		printf("Saldo modificado com sucesso para o valor de: %.2f!", *dinheiro-saque);
+	}else{
+		printf("ERRO! Valor do seu saldo é insuficiente para realizar o saque!");
+	}
 	
 	return 0;
 }
